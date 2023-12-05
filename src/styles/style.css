@@ -116,6 +116,8 @@ button {
 }
 
 .title {
+  padding-top: 260px;
+  padding-bottom: 36px;
   height: -moz-min-content;
   height: min-content;
   background-image: url("../images/background.webp");
@@ -135,7 +137,6 @@ button {
 
 h1 {
   text-align: center;
-  margin-top: 260px;
   color: #fff;
   font-family: Nunito Sans;
   font-size: 30px;
@@ -192,7 +193,6 @@ h1 {
   max-width: 1320px;
   margin: 0 auto;
   margin-top: 192px;
-  padding-bottom: 36px;
 }
 
 .lines {
@@ -209,24 +209,6 @@ h1 {
   gap: 8px;
 }
 
-.button {
-  margin: 0 auto;
-  margin-top: 48px;
-  border: none;
-  background: #4f8ff0;
-  padding: 16px 24px;
-  width: auto;
-  height: auto;
-  color: #fff;
-  text-align: center;
-  font-family: Nunito Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 120%;
-  text-transform: uppercase;
-}
-
 .container {
   max-width: 1320px;
   margin: 0 auto;
@@ -234,6 +216,7 @@ h1 {
 
 .services {
   background: #f7f7f7;
+  padding: 80px 0;
 }
 
 .service {
@@ -248,7 +231,6 @@ h1 {
   font-weight: 800;
   line-height: 150%;
   text-transform: uppercase;
-  margin-top: 80px;
   text-align: center;
 }
 
@@ -310,9 +292,9 @@ h1 {
   transition: 0.5s;
 }
 .articles__service:hover {
+  cursor: url("../pointer.svg"), pointer;
   background: #4f8ff0;
   color: #fff;
-  cursor: url("../pointer.svg"), auto;
 }
 .articles__service:hover h3 {
   color: #fff;
@@ -365,17 +347,9 @@ h1 {
   left: 32px;
 }
 
-.servbutton {
-  margin-bottom: 80px;
-}
-
 .company {
-  max-width: 1320px;
-  margin: 0 auto;
-  margin-top: 80px;
-  display: flex;
-  gap: 64px;
   background: #fff;
+  padding: 80px 0;
 }
 .company__about {
   margin-top: 24px;
@@ -421,6 +395,11 @@ h1 {
   text-transform: uppercase;
 }
 
+.company-block {
+  display: flex;
+  gap: 64px;
+}
+
 .word-color {
   color: #4f8ff0;
 }
@@ -439,9 +418,8 @@ h1 {
 }
 
 .workers {
-  max-width: 1320px;
+  padding: 80px 0;
   max-height: 739px;
-  margin: 0 auto;
 }
 .workers__title {
   margin-top: 80px;
@@ -468,4 +446,21 @@ h1 {
 .workers____cards {
   display: flex;
   gap: 24px;
+}
+
+.button {
+  margin: 0 auto;
+  margin-top: 48px;
+  border: none;
+  background: #4f8ff0;
+  padding: 16px 24px;
+  width: auto;
+  height: auto;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */

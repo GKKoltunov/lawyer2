@@ -1,5 +1,6 @@
 .title {
-  
+  padding-top: 260px;
+  padding-bottom: 36px;
   height: min-content;
   background-image: url("../images/background.webp");
   background-repeat: no-repeat;
@@ -18,7 +19,7 @@
 
 h1 {
   text-align: center;
-  margin-top: 260px;
+ 
   color: #fff;
   font-family: Nunito Sans;
   font-size: 30px;
@@ -75,7 +76,7 @@ h1 {
   max-width: 1320px;
   margin: 0 auto;
   margin-top: 192px;  
-  padding-bottom: 36px;
+
 }
 
 .lines {
@@ -92,20 +93,3 @@ h1 {
   gap: 8px;
 }
 
-.button{
-margin: 0 auto;
-  margin-top: 48px;
-  border: none;
-  background: #4f8ff0;
-  padding: 16px 24px;
-  width: auto;
-  height: auto;
-  color: #fff;
-  text-align: center;
-  font-family: Nunito Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 120%;
-  text-transform: uppercase;
-}

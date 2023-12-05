@@ -1,10 +1,6 @@
 .company {
-  max-width: 1320px;
-  margin: 0 auto;
-  margin-top: 80px;
-  display: flex;
-  gap: 64px;
   background: #fff;
+  padding: 80px 0;
 
   &__about {
     margin-top: 24px;
@@ -49,6 +45,11 @@ text-transform: uppercase;
   font-weight: 900;
   line-height: 120%;
   text-transform: uppercase;
+}
+
+.company-block{
+  display: flex;
+  gap: 64px;
 }
 
 .word-color {
