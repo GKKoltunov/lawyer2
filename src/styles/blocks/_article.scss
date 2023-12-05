@@ -1,5 +1,5 @@
-.articles{
-&__service {
+.article{
+
   display: flex;
   width: 412px;
   height: 250px;
@@ -15,23 +15,22 @@
 
 }
 
-&__service:hover {
+.article:hover {
   cursor: url("../pointer.svg"), pointer;
   background: #4f8ff0;
   color: #fff;
   
 }
 
-&__service:hover h3 {
+.article:hover h3 {
   color: #fff;
 }
 
-&__service:hover p {
+.article:hover p {
   color: #fff;
 }
 
-&__service:hover svg path {
+.article:hover svg path {
   fill: #fff;
   stroke: #fff;
-}
 }

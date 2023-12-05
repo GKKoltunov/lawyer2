@@ -390,7 +390,7 @@ h1 {
 
 .workers {
   padding: 80px 0;
-  max-height: 739px;
+  background: #F7F7F7;
 }
 .workers__title {
   margin-top: 80px;
@@ -414,9 +414,64 @@ h1 {
   font-weight: 400;
   line-height: 120%;
 }
-.workers____cards {
+.workers__cards {
+  margin-top: 48px;
   display: flex;
   gap: 24px;
+}
+.workers__name {
+  color: #222;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.workers__function {
+  color: #222;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  margin-top: 10px;
+}
+.workers__says {
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  margin-top: 40px;
+}
+.workers__experience {
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  margin-top: 40px;
+}
+.workers .card-info__name {
+  text-align: center;
+  color: #222;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-top: 24px;
+}
+.workers .card-info__p {
+  color: #222;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  text-transform: lowercase;
+  margin-top: 10px;
 }
 
 .button {
@@ -436,7 +491,7 @@ h1 {
   text-transform: uppercase;
 }
 
-.articles__service {
+.article {
   display: flex;
   width: 412px;
   height: 250px;
@@ -450,18 +505,136 @@ h1 {
   position: relative;
   transition: 0.5s;
 }
-.articles__service:hover {
+
+.article:hover {
   cursor: url("../pointer.svg"), pointer;
   background: #4f8ff0;
   color: #fff;
 }
-.articles__service:hover h3 {
+
+.article:hover h3 {
   color: #fff;
 }
-.articles__service:hover p {
+
+.article:hover p {
   color: #fff;
 }
-.articles__service:hover svg path {
+
+.article:hover svg path {
   fill: #fff;
   stroke: #fff;
+}
+
+.workers {
+  padding: 80px 0;
+  background: #F7F7F7;
+}
+.workers__title {
+  margin-top: 80px;
+  color: #222;
+  font-family: Nunito Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+  text-transform: uppercase;
+  text-align: center;
+}
+.workers__p {
+  margin: 0 auto;
+  margin-top: 24px;
+  width: 920px;
+  color: #222;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.workers__cards {
+  margin-top: 48px;
+  display: flex;
+  gap: 24px;
+}
+.workers__name {
+  color: #222;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.workers__function {
+  color: #222;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  margin-top: 10px;
+}
+.workers__says {
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  margin-top: 40px;
+}
+.workers__experience {
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  margin-top: 40px;
+}
+.workers .card-info__name {
+  text-align: center;
+  color: #222;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-top: 24px;
+}
+.workers .card-info__p {
+  color: #222;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  text-transform: lowercase;
+  margin-top: 10px;
+}
+
+.workers__card {
+  box-shadow: 2px 2px 12px 0px rgba(33, 33, 33, 0.12);
+  height: 414px;
+  position: relative;
+}
+.workers__foto {
+  width: 312px;
+  height: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  background: lightgray;
+}
+.workers__hidden {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 83px 20px 84px;
+  top: 0;
+  opacity: 0;
+  background: #fff;
+  transition: 0.5s;
+}
+.workers__hidden:hover {
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */

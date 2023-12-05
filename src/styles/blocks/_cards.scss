@@ -1,0 +1,32 @@
+.workers{
+ &__card{
+    box-shadow: 2px 2px 12px 0px rgba(33, 33, 33, 0.12);
+    height:414px;
+position: relative;
+ }
+&__foto{
+  
+    width: 312px;
+    height: 320px;
+    object-fit: cover;
+    object-position: center;
+    background: lightgray;
+}
+
+&__hidden{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 83px 20px 84px;
+  top: 0;
+  opacity: 0;
+  background: #fff;
+  transition: 0.5s;
+}
+
+&__hidden:hover{
+  opacity: 1;
+}
+
+}
+
