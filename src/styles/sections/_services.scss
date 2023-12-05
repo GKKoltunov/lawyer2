@@ -1,0 +1,149 @@
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.services {
+  background: #f7f7f7;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-title {
+  color: #222;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+  text-transform: uppercase;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.line {
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #4f8ff0;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.heading-text {
+  margin: 0 auto;
+  margin-top: 24px;
+  max-width: 920px;
+  color: #222;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.articles {
+  margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 38px;
+
+  &__title {
+  color: #222;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+}
+
+&__text {
+  color: #222;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+&__service {
+  display: flex;
+  width: 412px;
+  height: 250px;
+  padding: 50px 32px;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  flex-shrink: 0;
+  background: #fff;
+  text-decoration: none;
+  position: relative;
+   transition: 0.5s;
+
+}
+
+&__service:hover {
+  background: #4f8ff0;
+  color: #fff;
+  cursor: url("../pointer.svg"), auto;
+}
+
+&__service:hover h3 {
+  color: #fff;
+}
+
+&__service:hover p {
+  color: #fff;
+}
+
+&__service:hover svg path {
+  fill: #fff;
+  stroke: #fff;
+}
+}
+
+.corner_lt {
+  width: 35px;
+  height: 35px;
+  border-top: 1px solid #ffff;
+  border-left: 1px solid #fff;
+  position: absolute;
+  top: 20px;
+  left: 32px;
+}
+
+.corner_rt {
+  width: 35px;
+  height: 35px;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  position: absolute;
+  top: 20px;
+  right: 32px;
+}
+
+.corner_rb {
+  width: 35px;
+  height: 35px;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  position: absolute;
+  bottom: 20px;
+  right: 32px;
+}
+
+.corner_lb {
+  width: 35px;
+  height: 35px;
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+  position: absolute;
+  bottom: 20px;
+  left: 32px;
+}
+
+
+.servbutton{
+  margin-bottom: 80px;
+}

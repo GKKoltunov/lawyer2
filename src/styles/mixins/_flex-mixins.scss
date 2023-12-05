@@ -1,0 +1,10 @@
+@mixin flex-row-sb-aic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flex-row-aic{
+  display: flex;
+  align-items: center;
+}
