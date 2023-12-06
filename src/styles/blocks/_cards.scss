@@ -27,7 +27,10 @@ position: relative;
 
 &__hidden:hover{
   opacity: 1;
+  cursor: url("../../images/pointers/pointerblue.svg"), pointer;
 }
+
+
 
 &__name{
 color: $main-text-color;
