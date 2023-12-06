@@ -3,30 +3,7 @@
 
 background: #F7F7F7;
 
-  &__title {
-    margin-top: 80px;
-    color: $main-text-color;
-    font-family: Nunito Sans;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 150%;
-    text-transform: uppercase;
-    text-align: center;
-  }
-
-  &__p {
-    margin: 0 auto;
-    margin-top: 24px;
-    width: 920px;
-    color: $main-text-color;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%;
-  }
-
+  
   &__cards{
     
     margin-top: 48px;
@@ -34,6 +11,9 @@ background: #F7F7F7;
     gap: 24px;
   }
 }
+
+
+
 
 
 .card-info{

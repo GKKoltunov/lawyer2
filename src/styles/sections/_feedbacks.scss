@@ -1,0 +1,106 @@
+.feedbacks{
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0 80px;
+     background-image: url("../../../src/images/background2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__container{
+ 
+  max-width: 1320px;
+  margin: 0 auto;}
+}
+  
+.feedbacks__title{
+  display: flex;
+  justify-content: space-between;
+  color:  #222;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: 150%; 
+text-transform: uppercase;
+}
+
+.feedbacks__otzyv{
+  margin: 0 auto;
+  margin-top: 61px;
+  display: flex;
+  flex-direction: row;
+ 
+  gap: 24px;
+}
+
+.avatar{
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.feedbacks__article{
+  width: 648px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: #FFFFFF;
+  padding: 32px;
+}
+
+.feedbacks__btns{
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.otzyv-text{
+  color: #222;
+font-family: Nunito Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+
+.btns{
+  padding: 16px 24px; 
+  border: 2px solid  #4F8FF0;
+background:  #4F8FF0;
+color:  #FFF;
+text-align: center;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 900;
+line-height: 120%; 
+text-transform: uppercase;
+}
+
+.firma{
+color: #222;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 120%; 
+}
+
+.avtor{
+color: var #222;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+}
+
+
+
+.firma-avtor{
+  margin: auto 0;
+}
+
+.face-firma{
+  display: flex;
+  gap: 24px;
+}
