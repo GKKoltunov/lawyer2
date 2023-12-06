@@ -57,6 +57,10 @@
     text-transform: uppercase;
   }
 
+  &__text--p1:hover{
+    cursor: pointer;
+  } 
+
   &__text--p2 {
     color: #fff;
     margin-top: 0;

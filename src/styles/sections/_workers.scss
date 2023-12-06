@@ -28,6 +28,7 @@ background: #F7F7F7;
   }
 
   &__cards{
+    
     margin-top: 48px;
     display: flex;
     gap: 24px;
@@ -36,6 +37,8 @@ background: #F7F7F7;
 
 
 .card-info{
+padding: 24px 0;
+
   &__name{
     text-align: center;
     color: $main-text-color;
@@ -43,7 +46,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: 120%; 
-margin-top: 24px;
+
   }
 
   &__p{

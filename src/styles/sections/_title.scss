@@ -56,17 +56,17 @@ h1 {
   justify-content: center;
 }
 
-.title-icn1 {
-  width: 4px;
-  height: 40px;
-  background: #4f8ff0;
-  margin-top: auto;
-}
-
-.title-icn2 {
+.title-icn {
   width: 4px;
   height: 24px;
   background: #e6e6e6;
+  margin-top: auto;
+}
+
+.active {
+  width: 4px;
+  height: 40px;
+  background: #4f8ff0;
   margin-top: auto;
 }
 
@@ -90,6 +90,7 @@ h1 {
 }
 
 .slider {
+  display: flex;
   gap: 8px;
 }
 

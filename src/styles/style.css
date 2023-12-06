@@ -87,6 +87,9 @@ button {
   line-height: 150%;
   text-transform: uppercase;
 }
+.header__text--p1:hover {
+  cursor: pointer;
+}
 .header__text--p2 {
   color: #fff;
   margin-top: 0;
@@ -173,17 +176,17 @@ h1 {
   justify-content: center;
 }
 
-.title-icn1 {
-  width: 4px;
-  height: 40px;
-  background: #4f8ff0;
-  margin-top: auto;
-}
-
-.title-icn2 {
+.title-icn {
   width: 4px;
   height: 24px;
   background: #e6e6e6;
+  margin-top: auto;
+}
+
+.active {
+  width: 4px;
+  height: 40px;
+  background: #4f8ff0;
   margin-top: auto;
 }
 
@@ -206,6 +209,7 @@ h1 {
 }
 
 .slider {
+  display: flex;
   gap: 8px;
 }
 
@@ -318,6 +322,11 @@ h1 {
   left: 32px;
 }
 
+.servbutton {
+  margin: 0 auto;
+  margin-top: 48px;
+}
+
 .company {
   background: #fff;
   padding: 80px 0;
@@ -326,8 +335,6 @@ h1 {
   margin-top: 24px;
 }
 .company__btns {
-  margin-top: 32px;
-  margin-bottom: 80px;
   display: flex;
   flex-direction: row;
   gap: 24px;
@@ -350,22 +357,6 @@ h1 {
      object-position: center;
 }
 
-.buttongray {
-  margin: 0;
-  width: auto;
-  height: auto;
-  border: none;
-  background: #e6e6e6;
-  padding: 16px 24px;
-  color: #222;
-  text-align: center;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 120%;
-  text-transform: uppercase;
-}
-
 .company-block {
   display: flex;
   gap: 64px;
@@ -385,7 +376,7 @@ h1 {
 }
 
 .btn-company {
-  margin: 0;
+  margin-top: 32px;
 }
 
 .workers {
@@ -420,6 +411,9 @@ h1 {
   gap: 24px;
 }
 
+.card-info {
+  padding: 24px 0;
+}
 .card-info__name {
   text-align: center;
   color: #222;
@@ -427,7 +421,6 @@ h1 {
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
-  margin-top: 24px;
 }
 .card-info__p {
   color: #222;
@@ -441,14 +434,28 @@ h1 {
 }
 
 .button {
-  margin: 0 auto;
-  margin-top: 48px;
   border: none;
   background: #4f8ff0;
   padding: 16px 24px;
   width: auto;
   height: auto;
   color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.buttongray {
+  margin-top: 32px;
+  width: auto;
+  height: auto;
+  border: none;
+  background: #e6e6e6;
+  padding: 16px 24px;
+  color: #222;
   text-align: center;
   font-size: 14px;
   font-style: normal;
@@ -523,6 +530,9 @@ h1 {
   gap: 24px;
 }
 
+.card-info {
+  padding: 24px 0;
+}
 .card-info__name {
   text-align: center;
   color: #222;
@@ -530,7 +540,6 @@ h1 {
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
-  margin-top: 24px;
 }
 .card-info__p {
   color: #222;
@@ -544,12 +553,14 @@ h1 {
 }
 
 .workers__card {
+  width: 312px;
   box-shadow: 2px 2px 12px 0px rgba(33, 33, 33, 0.12);
   height: 414px;
   position: relative;
 }
 .workers__foto {
-  width: 312px;
+  display: block;
+  width: 100%;
   height: 320px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -562,7 +573,7 @@ h1 {
   display: flex;
   flex-direction: column;
   padding: 83px 20px 84px;
-  top: 0;
+  inset: 0 0 0 0;
   opacity: 0;
   background: #fff;
   transition: 0.5s;
