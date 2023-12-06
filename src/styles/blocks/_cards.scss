@@ -28,5 +28,83 @@ position: relative;
   opacity: 1;
 }
 
+&__name{
+color: $main-text-color;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; 
+}
+
+&__function{
+  color: $main-text-color;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 120%; 
+margin-top: 10px;
+}
+
+&__says{
+  color: #000;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 120%; 
+margin-top:40px;
+}
+
+&__experience{
+  color: #000;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 120%; 
+margin-top: 40px;
+}
+
+&__corner-lt{
+  width: 25px;
+height: 25px; 
+border-left: 1px solid $accent-color;
+border-top: 1px solid $accent-color;
+position: absolute;
+top: 20px;
+left: 20px;
+}
+
+&__corner-rt{
+  width: 25px;
+height: 25px; 
+  border-right: 1px solid $accent-color;
+border-top: 1px solid $accent-color;
+position: absolute;
+top: 20px;
+right: 20px;
+}
+
+&__corner-lb{
+  width: 25px;
+height: 25px; 
+  border-left: 1px solid $accent-color;
+border-bottom: 1px solid $accent-color;
+position: absolute;
+bottom: 20px;
+left: 20px;
+}
+
+&__corner-rb{
+  width: 25px;
+height: 25px; 
+  border-right: 1px solid $accent-color;
+border-bottom: 1px solid $accent-color;
+position: absolute;
+bottom: 20px;
+right: 20px;
+}
 }
 

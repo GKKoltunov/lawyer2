@@ -419,42 +419,8 @@ h1 {
   display: flex;
   gap: 24px;
 }
-.workers__name {
-  color: #222;
-  text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%;
-}
-.workers__function {
-  color: #222;
-  text-align: center;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 120%;
-  margin-top: 10px;
-}
-.workers__says {
-  color: #000;
-  text-align: center;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 120%;
-  margin-top: 40px;
-}
-.workers__experience {
-  color: #000;
-  text-align: center;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 120%;
-  margin-top: 40px;
-}
-.workers .card-info__name {
+
+.card-info__name {
   text-align: center;
   color: #222;
   font-size: 16px;
@@ -463,7 +429,7 @@ h1 {
   line-height: 120%;
   margin-top: 24px;
 }
-.workers .card-info__p {
+.card-info__p {
   color: #222;
   text-align: center;
   font-size: 14px;
@@ -556,42 +522,8 @@ h1 {
   display: flex;
   gap: 24px;
 }
-.workers__name {
-  color: #222;
-  text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%;
-}
-.workers__function {
-  color: #222;
-  text-align: center;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 120%;
-  margin-top: 10px;
-}
-.workers__says {
-  color: #000;
-  text-align: center;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 120%;
-  margin-top: 40px;
-}
-.workers__experience {
-  color: #000;
-  text-align: center;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 120%;
-  margin-top: 40px;
-}
-.workers .card-info__name {
+
+.card-info__name {
   text-align: center;
   color: #222;
   font-size: 16px;
@@ -600,7 +532,7 @@ h1 {
   line-height: 120%;
   margin-top: 24px;
 }
-.workers .card-info__p {
+.card-info__p {
   color: #222;
   text-align: center;
   font-size: 14px;
@@ -637,4 +569,75 @@ h1 {
 }
 .workers__hidden:hover {
   opacity: 1;
+}
+.workers__name {
+  color: #222;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.workers__function {
+  color: #222;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  margin-top: 10px;
+}
+.workers__says {
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  margin-top: 40px;
+}
+.workers__experience {
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  margin-top: 40px;
+}
+.workers__corner-lt {
+  width: 25px;
+  height: 25px;
+  border-left: 1px solid #4F8FF0;
+  border-top: 1px solid #4F8FF0;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.workers__corner-rt {
+  width: 25px;
+  height: 25px;
+  border-right: 1px solid #4F8FF0;
+  border-top: 1px solid #4F8FF0;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.workers__corner-lb {
+  width: 25px;
+  height: 25px;
+  border-left: 1px solid #4F8FF0;
+  border-bottom: 1px solid #4F8FF0;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.workers__corner-rb {
+  width: 25px;
+  height: 25px;
+  border-right: 1px solid #4F8FF0;
+  border-bottom: 1px solid #4F8FF0;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }/*# sourceMappingURL=style.css.map */
