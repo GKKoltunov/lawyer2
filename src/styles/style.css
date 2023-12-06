@@ -338,6 +338,7 @@ h1 {
   margin-top: 24px;
 }
 .company__btns {
+  margin-top: 32px;
   display: flex;
   flex-direction: row;
   gap: 24px;
@@ -384,10 +385,6 @@ h1 {
   background: #4f8ff0;
   margin-left: 0px;
   margin-top: 10px;
-}
-
-.btn-company {
-  margin-top: 32px;
 }
 
 .workers {
@@ -438,7 +435,6 @@ h1 {
 }
 
 .buttongray {
-  margin-top: 32px;
   width: auto;
   height: auto;
   border: none;
@@ -469,7 +465,7 @@ h1 {
 }
 
 .article:hover {
-  cursor: url("../../images/pointers/pointer.svg"), pointer;
+  cursor: url("../../../src/images/pointers/pointer.svg"), pointer;
   background: #4f8ff0;
   color: #fff;
 }
@@ -515,7 +511,7 @@ h1 {
 }
 .workers__hidden:hover {
   opacity: 1;
-  cursor: url("../../images/pointers/pointerblue.svg"), pointer;
+  cursor: url("../../../src/images/pointers/pointerblue.svg"), pointer;
 }
 .workers__name {
   color: #222;
@@ -630,11 +626,6 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.feedbacks__container {
-  max-width: 1320px;
-  margin: 0 auto;
-}
-
 .feedbacks__title {
   display: flex;
   justify-content: space-between;
@@ -645,12 +636,27 @@ h1 {
   line-height: 150%;
   text-transform: uppercase;
 }
-
 .feedbacks__otzyv {
   margin: 0 auto;
   margin-top: 61px;
   display: flex;
   flex-direction: row;
+  gap: 24px;
+}
+.feedbacks__article {
+  width: 648px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: #FFFFFF;
+  padding: 32px;
+  box-shadow: 2px 2px 10px 0px rgba(33, 33, 33, 0.15);
+}
+.feedbacks__btns {
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-start;
   gap: 24px;
 }
 
@@ -660,23 +666,6 @@ h1 {
   justify-content: space-between;
 }
 
-.feedbacks__article {
-  width: 648px;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  background: #FFFFFF;
-  padding: 32px;
-}
-
-.feedbacks__btns {
-  margin-top: 32px;
-  display: flex;
-  justify-content: flex-start;
-  gap: 24px;
-}
-
 .otzyv-text {
   color: #222;
   font-family: Nunito Sans;
@@ -684,19 +673,6 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
-}
-
-.btns {
-  padding: 16px 24px;
-  border: 2px solid #4F8FF0;
-  background: #4F8FF0;
-  color: #FFF;
-  text-align: center;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 120%;
-  text-transform: uppercase;
 }
 
 .firma {

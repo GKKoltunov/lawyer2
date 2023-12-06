@@ -6,13 +6,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 
-  &__container{
- 
-  max-width: 1320px;
-  margin: 0 auto;}
-}
-  
-.feedbacks__title{
+&__title{
   display: flex;
   justify-content: space-between;
   color:  #222;
@@ -23,22 +17,15 @@ line-height: 150%;
 text-transform: uppercase;
 }
 
-.feedbacks__otzyv{
+&__otzyv{
   margin: 0 auto;
   margin-top: 61px;
   display: flex;
   flex-direction: row;
- 
   gap: 24px;
 }
 
-.avatar{
-  display: flex;
-  gap: 24px;
-  justify-content: space-between;
-}
-
-.feedbacks__article{
+&__article{
   width: 648px;
   height: auto;
   display: flex;
@@ -46,14 +33,26 @@ text-transform: uppercase;
   gap: 16px;
   background: #FFFFFF;
   padding: 32px;
+  box-shadow: 2px 2px 10px 0px rgba(33, 33, 33, 0.15);
 }
 
-.feedbacks__btns{
+&__btns{
   margin-top: 32px;
   display: flex;
   justify-content: flex-start;
   gap: 24px;
 }
+
+}
+
+
+.avatar{
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+
 
 .otzyv-text{
   color: #222;
@@ -64,19 +63,6 @@ font-weight: 400;
 line-height: 150%;
 }
 
-.btns{
-  padding: 16px 24px; 
-  border: 2px solid  #4F8FF0;
-background:  #4F8FF0;
-color:  #FFF;
-text-align: center;
-
-font-size: 14px;
-font-style: normal;
-font-weight: 900;
-line-height: 120%; 
-text-transform: uppercase;
-}
 
 .firma{
 color: #222;
