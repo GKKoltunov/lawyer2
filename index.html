@@ -435,39 +435,40 @@
 
     <section class="feedbacks">
       <div class="container">
-        <h2 class="feedbacks__title">ЧТО О НАС ГОВОРЯТ КЛИЕНТЫ</h2>
-        <div class="slider">
-          <button>
-            <svg
-              width="21"
-              height="21"
-              viewBox="0 0 21 21"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M14.3055 18.8334L5.97217 10.5L14.3055 2.16669L15.7847 3.64585L8.9305 10.5L15.7847 17.3542L14.3055 18.8334Z"
-                fill="#4F8FF0"
-              />
-            </svg>
-          </button>
-          <span class="slash">/</span>
-          <button>
-            <svg
-              width="20"
-              height="21"
-              viewBox="0 0 20 21"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M6.68742 18.8334L5.20825 17.3542L12.0624 10.5L5.20825 3.64585L6.68742 2.16669L15.0208 10.5L6.68742 18.8334Z"
-                fill="#4F8FF0"
-              />
-            </svg>
-          </button>
+        <div class="feedbacks__head">
+          <h2 class="feedbacks__title">ЧТО О НАС ГОВОРЯТ КЛИЕНТЫ</h2>
+          <div class="slider">
+            <button>
+              <svg
+                width="21"
+                height="21"
+                viewBox="0 0 21 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.3055 18.8334L5.97217 10.5L14.3055 2.16669L15.7847 3.64585L8.9305 10.5L15.7847 17.3542L14.3055 18.8334Z"
+                  fill="#4F8FF0"
+                />
+              </svg>
+            </button>
+            <span class="slash slash-feedbacks">/</span>
+            <button>
+              <svg
+                width="20"
+                height="21"
+                viewBox="0 0 20 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.68742 18.8334L5.20825 17.3542L12.0624 10.5L5.20825 3.64585L6.68742 2.16669L15.0208 10.5L6.68742 18.8334Z"
+                  fill="#4F8FF0"
+                />
+              </svg>
+            </button>
+          </div>
         </div>
-
         <div class="feedbacks__otzyv">
           <article class="feedbacks__article">
             <div class="avatar">
@@ -549,13 +550,34 @@
     <section class="helpful">
       <div class="container">
         <h2 class="helpful__title">ПОЛЕЗНЫЕ МАТЕРИАЛЫ</h2>
-        <p class="helpful__text">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона</p>
+        <p class="helpful__text">
+          Давно выяснено, что при оценке дизайна и композиции читаемый текст
+          мешает сосредоточиться. Lorem Ipsum используют потому, что тот
+          обеспечивает более или менее стандартное заполнение шаблона
+        </p>
+        <div class="article-button">
         <div class="helpful__articles">
-          <article class="stuff"></article>
-          <article class="stuff"></article>
-          <article class="stuff"></article>
+          <article class="stuff">
+            <img class="stuff__img" src="./src/images/glass@2x.webp" alt="glass" />
+            <h3 class="stuff__title">Воистину радостный звук: шёпот бессменных лидеров</h3>
+            <time class="stuff__time" datetime="2023-04-24">24 апр. 2023 г.</time>
+            <p class="stuff__text">Предварительные выводы неутешительны: синтетическое тестирование, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для экономической целесообразности принимаемых решений. </p>
+          </article>
+          <article class="stuff">
+            <img class="stuff__img" src="./src/images/France@2x.webp" alt="france" />
+            <h3 class="stuff__title">Франция намерена исследовать, почему объемы выросли</h3>
+            <time class="stuff__time" datetime="2023-03-12">12 мар. 2023 г.</time>
+            <p class="stuff__text">Для современного мира новая модель организационной деятельности влечет за собой процесс внедрения и модернизации вывода текущих активов. Являясь всего лишь частью общей картины, базовые сценарии поведения...</p>
+          </article>
+          <article class="stuff">
+            <img class="stuff__img" src="./src/images/hands@2x.webp" alt="hands" />
+            <h3 class="stuff__title">Сплочённость команды профессионалов продолжает удивлять</h3>
+            <time class="stuff__time" datetime="2023-02-02">02 фев. 2023 г.</time>
+            <p class="stuff__text">Современные технологии достигли такого уровня, что курс на социально-ориентированный национальный проект способствует повышению качества соответствующих условий активизации. </p>
+          </article>
         </div>
         <button class="button">ВСЕ НОВОСТИ</button>
+        </div>
       </div>
     </section>
   </body>

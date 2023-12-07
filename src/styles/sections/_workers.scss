@@ -78,5 +78,20 @@
     &__title {
       font-size: 24px;
     }
+    &__p{
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .workers{
+    &__title {
+      font-size: 20px;
+    }
+    &__p{
+      width: 100%;
+      font-size: 14px;
+    }
   }
 }

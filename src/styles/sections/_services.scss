@@ -1,7 +1,8 @@
-.container {
-  max-width: 1320px;
-  margin: 0 auto;
-}
+// .container {
+//   max-width: 1320px;
+//   margin: 0 auto;
+//   width: 100%;
+// }
 
 .services {
   background: #f7f7f7;
@@ -56,6 +57,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 38px;
+ 
  
 
   &__title {
@@ -143,6 +145,7 @@
   }
 
   .articles{
+     max-width: 100%;
     display: flex;
     gap: 24px;
     overflow: scroll;

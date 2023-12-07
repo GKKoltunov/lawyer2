@@ -1,0 +1,45 @@
+.helpful__articles {
+  display: flex;
+  gap: 24px;
+  margin: 48px 0;
+}
+
+.stuff {
+  display: flex;
+  flex-direction: column;
+
+  &__img {
+    max-width: 424px;
+    height: 270px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &__title {
+    margin-top: 24px;
+    color: $main-text-color;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+  }
+
+  &__time {
+    padding: 16px 0;
+    color: $main-text-color;
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%;
+  }
+
+  &__text{
+    padding-bottom: 24px;
+    color: $main-text-color;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; 
+  }
+}

@@ -35,4 +35,13 @@ margin: 0 auto;
 margin-top: 24px;
 
   }
+
+  
+}
+
+.article-button{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
 }

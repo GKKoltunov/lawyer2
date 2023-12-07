@@ -6,9 +6,16 @@
   background-size: cover;
   background-repeat: no-repeat;
 
+  &__head{
+    display: flex;
+    justify-content: space-between;
+  }
+
 &__title{
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  gap: 10px;
   color:  #222;
 font-size: 28px;
 font-style: normal;
@@ -17,12 +24,21 @@ line-height: 150%;
 text-transform: uppercase;
 }
 
+&__title::after{
+  content: "";
+  width: 50px;
+height: 3px;
+background: #4F8FF0;
+display: block;
+}
+
 &__otzyv{
-  margin: 0 auto;
+  
   margin-top: 61px;
   display: flex;
   flex-direction: row;
   gap: 24px;
+  
 }
 
 &__article{
@@ -45,6 +61,9 @@ text-transform: uppercase;
 
 }
 
+.slash-feedbacks{
+  color:#4F8FF0;
+}
 
 .avatar{
   display: flex;
@@ -89,4 +108,44 @@ line-height: 150%;
 .face-firma{
   display: flex;
   gap: 24px;
+}
+
+
+@media(max-width:1320px){
+.feedbacks{
+&__title{
+  font-size: 24px;
+}
+
+  &__otzyv{
+    width: 100%;
+    overflow: scroll;
+  }
+  &__article{
+    min-width: 648px;
+  }
+}
+}
+
+@media(max-width:550px){
+.feedbacks{
+&__title{
+  font-size: 20px;
+}
+
+  &__otzyv{
+    width: 100%;
+    overflow: scroll;
+  }
+  &__article{
+    min-width: 340px;
+  }
+
+  &__btns{
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+gap: 16px; 
+  }
+}
 }

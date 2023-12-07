@@ -1,6 +1,5 @@
 .workers {
-  &__card {
-    min-width: 312px;
+  &__card { 
     box-shadow: 2px 2px 12px 0px rgba(33, 33, 33, 0.12);
     height: 414px;
     position: relative;
@@ -113,6 +112,10 @@
 
 @media(max-width:1320px){
   .workers__cards{
-  overflow: scroll;
+    max-width: 100%;
+  overflow: scroll;}
+
+  .workers__card{
+    min-width: 312px;
   }
 }
