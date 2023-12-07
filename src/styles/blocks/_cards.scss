@@ -1,114 +1,118 @@
-.workers{
- &__card{
-  width: 312px;
+.workers {
+  &__card {
+    min-width: 312px;
     box-shadow: 2px 2px 12px 0px rgba(33, 33, 33, 0.12);
-    height:414px;
-position: relative;
- }
-&__foto{
+    height: 414px;
+    position: relative;
+  }
+  &__foto {
     display: block;
     width: 100%;
     height: 320px;
     object-fit: cover;
     object-position: center;
     background: lightgray;
+  }
+
+  &__hidden {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 83px 20px 84px;
+    inset: 0 0 0 0;
+    opacity: 0;
+    background: #fff;
+    transition: 0.5s;
+  }
+
+  &__hidden:hover {
+    opacity: 1;
+    cursor: url("../../../src/images/pointers/pointerblue.svg"), pointer;
+  }
+
+  &__name {
+    color: $main-text-color;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+  }
+
+  &__function {
+    color: $main-text-color;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%;
+    margin-top: 10px;
+  }
+
+  &__says {
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%;
+    margin-top: 40px;
+  }
+
+  &__experience {
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%;
+    margin-top: 40px;
+  }
+
+  &__corner-lt {
+    width: 25px;
+    height: 25px;
+    border-left: 1px solid $accent-color;
+    border-top: 1px solid $accent-color;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  &__corner-rt {
+    width: 25px;
+    height: 25px;
+    border-right: 1px solid $accent-color;
+    border-top: 1px solid $accent-color;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  &__corner-lb {
+    width: 25px;
+    height: 25px;
+    border-left: 1px solid $accent-color;
+    border-bottom: 1px solid $accent-color;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  &__corner-rb {
+    width: 25px;
+    height: 25px;
+    border-right: 1px solid $accent-color;
+    border-bottom: 1px solid $accent-color;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
 }
 
-&__hidden{
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  padding: 83px 20px 84px;
-  inset: 0 0 0 0;
-  opacity: 0;
-  background: #fff;
-  transition: 0.5s;
+
+@media(max-width:1320px){
+  .workers__cards{
+  overflow: scroll;
+  }
 }
-
-&__hidden:hover{
-  opacity: 1;
-  cursor: url("../../../src/images/pointers/pointerblue.svg"), pointer;
-}
-
-
-
-&__name{
-color: $main-text-color;
-text-align: center;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 120%; 
-}
-
-&__function{
-  color: $main-text-color;
-text-align: center;
-font-size: 14px;
-font-style: normal;
-font-weight: 300;
-line-height: 120%; 
-margin-top: 10px;
-}
-
-&__says{
-  color: #000;
-text-align: center;
-font-size: 14px;
-font-style: normal;
-font-weight: 300;
-line-height: 120%; 
-margin-top:40px;
-}
-
-&__experience{
-  color: #000;
-text-align: center;
-font-size: 14px;
-font-style: normal;
-font-weight: 300;
-line-height: 120%; 
-margin-top: 40px;
-}
-
-&__corner-lt{
-  width: 25px;
-height: 25px; 
-border-left: 1px solid $accent-color;
-border-top: 1px solid $accent-color;
-position: absolute;
-top: 20px;
-left: 20px;
-}
-
-&__corner-rt{
-  width: 25px;
-height: 25px; 
-  border-right: 1px solid $accent-color;
-border-top: 1px solid $accent-color;
-position: absolute;
-top: 20px;
-right: 20px;
-}
-
-&__corner-lb{
-  width: 25px;
-height: 25px; 
-  border-left: 1px solid $accent-color;
-border-bottom: 1px solid $accent-color;
-position: absolute;
-bottom: 20px;
-left: 20px;
-}
-
-&__corner-rb{
-  width: 25px;
-height: 25px; 
-  border-right: 1px solid $accent-color;
-border-bottom: 1px solid $accent-color;
-position: absolute;
-bottom: 20px;
-right: 20px;
-}
-}
-

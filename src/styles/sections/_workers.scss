@@ -1,42 +1,82 @@
 .workers {
   padding: 80px 0;
 
-background: #F7F7F7;
+  background: #f7f7f7;
 
-  
-  &__cards{
-    
+  &__cards {
     margin-top: 48px;
     display: flex;
     gap: 24px;
+  }
+
+  &__title {
+    margin-top: 80px;
+    color: $main-text-color;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  &__title::after {
+    content: "";
+    background: #4f8ff0;
+    width: 50px;
+    height: 3px;
+    display: block;
+  }
+
+  &__p {
+    margin: 0 auto;
+    margin-top: 24px;
+    width: 920px;
+    color: $main-text-color;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
   }
 }
 
 
 
 
+.card-info {
+  padding: 24px 0;
 
-.card-info{
-padding: 24px 0;
-
-  &__name{
+  &__name {
     text-align: center;
     color: $main-text-color;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 120%; 
-
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
   }
 
-  &__p{
+  &__p {
     color: $main-text-color;
-text-align: center;
-font-size: 14px;
-font-style: normal;
-font-weight: 300;
-line-height: 120%; 
-text-transform: lowercase;
-margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%;
+    text-transform: lowercase;
+    margin-top: 10px;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .workers{
+    &__title {
+      font-size: 24px;
+    }
   }
 }
