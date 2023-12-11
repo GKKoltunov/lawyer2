@@ -330,6 +330,10 @@ h1 {
   align-items: center;
 }
 
+.slider-btn {
+  transition: 0.5s;
+}
+
 .slider-btn:hover {
   transform: scale(1.2);
   cursor: url("./../../src/images/pointers/pointerblue.svg"), pointer;
@@ -1323,6 +1327,7 @@ h1 {
 
 .politic {
   color: #FFF;
+  transition: 0.5s;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;

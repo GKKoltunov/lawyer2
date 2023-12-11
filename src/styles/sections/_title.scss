@@ -94,9 +94,14 @@ h1 {
   display: flex;
   gap: 8px;
   align-items: center;
+  
+}
+.slider-btn{
+  transition: 0.5s;
 }
 
 .slider-btn:hover {
+
 transform: scale(1.2);
 cursor: url("./../../src/images/pointers/pointerblue.svg"), pointer;
 }
