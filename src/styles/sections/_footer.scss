@@ -50,10 +50,12 @@
     font-weight: 700;
     line-height: 120%;
     text-transform: uppercase;
+    transition: 0.5s;
   }
 
 &__link:hover{
   color: #4F8FF0;
+  cursor: url("./../../../src/images/pointers/pointer.svg"), pointer;
 }
 
   &__ask {
@@ -129,6 +131,7 @@
   gap: 24px;
   align-items: center;
   min-width: 360px;
+ 
 
   &__title {
     color: #8c8c8c;
@@ -141,11 +144,15 @@
 
   &__p {
     color: #fff;
-
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
+     transition: 0.5s;
+  }
+  &__p:hover{
+    cursor: url("./../../../src/images/pointers/pointer.svg"), pointer;
+    color: $accent-color;
   }
 }
 

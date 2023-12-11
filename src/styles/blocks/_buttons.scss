@@ -12,12 +12,14 @@
   font-weight: 900;
   line-height: 120%;
   text-transform: uppercase;
+  transition:0.5s;
 }
 
 .button:hover{
   color: $accent-color;
   outline: 2px solid #4F8FF0;
 background:  #FFF;
+
 }
 
 .buttongray {
@@ -34,6 +36,8 @@ background:  #FFF;
   font-weight: 900;
   line-height: 120%;
   text-transform: uppercase;
+  transition: 0.5s;
+  
 }
 
 .buttongray:hover{

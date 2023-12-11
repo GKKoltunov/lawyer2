@@ -2,11 +2,12 @@
   &__card { 
     box-shadow: 2px 2px 12px 0px rgba(33, 33, 33, 0.12);
     height: 414px;
+    
     position: relative;
   }
   &__foto {
     display: block;
-    width: 100%;
+    min-width: 312px;
     height: 320px;
     object-fit: cover;
     object-position: center;
@@ -26,7 +27,7 @@
 
   &__hidden:hover {
     opacity: 1;
-    cursor: url("../../../src/images/pointers/pointerblue.svg"), pointer;
+    cursor: url("./../../../src/images/pointers/pointerblue.svg"), pointer;
   }
 
   &__name {

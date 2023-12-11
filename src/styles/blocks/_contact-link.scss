@@ -1,25 +1,45 @@
-.contact-link{
+.contact-link {
   @include flex-row-aic;
   gap: 8px;
   color: #fff;
   transition: 0.3s;
 
-  &__icon{
+  &__icon {
     width: 20px;
     height: 20px;
   }
 
-  &__icon path{
+  &__icon path {
     fill: $accent-color;
   }
 
+  &__mail {
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    @include flex-row-aic;
+    gap: 8px;
+    transition: 0.3s;
+  }
+
+  &__mail:hover{
+    color: $accent-color;
+    cursor: url("./../../../src/images/pointers/pointer.svg"), pointer;
+  }
+  
+  
+  
   &:hover {
     color: $accent-color;
+    cursor: url("./../../../src/images/pointers/pointer.svg"), pointer;
   }
 }
 
-@media (max-width: 530px) {
-  .mail{
+
+@media (max-width:600px){
+  .contact-link__mail{
     display:none;
   }
 }

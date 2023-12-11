@@ -19,6 +19,12 @@
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
+    transition: 0.5s;
+  }
+
+  &__callme:hover{
+    color: #fff;
+    cursor: url("./../../../src/images/pointers/pointer.svg"), pointer;
   }
 
   &__bottom {
@@ -46,6 +52,7 @@
 
   &__link:hover {
     color: $accent-color;
+    cursor: url("./../../../src/images/pointers/pointer.svg"), pointer;
   }
 
   &__text--p1 {
@@ -58,7 +65,7 @@
   }
 
   &__text--p1:hover{
-    cursor: pointer;
+    cursor: url("./../../../src/images/pointers/pointer.svg"), pointer;
   } 
 
   &__text--p2 {
@@ -92,4 +99,5 @@
   }
 }
 }
+
 
