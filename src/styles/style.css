@@ -106,6 +106,65 @@ button {
   text-transform: lowercase;
 }
 
+.burger {
+  display: none;
+  position: relative;
+}
+.burger__links {
+  position: fixed;
+  top: 70px;
+  right: 0;
+  width: 290px;
+  height: -moz-min-content;
+  height: min-content;
+  background: #222;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  transition: 0.5s;
+  z-index: 80;
+  transform: translateX(100%);
+  padding-left: 26px;
+  padding-top: 50px;
+  padding-right: 155px;
+  padding-bottom: 50px;
+}
+.burger__link {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  transition: 0.5s;
+}
+.burger__link:hover {
+  color: #4F8FF0;
+  cursor: url("./../../../src/images/pointers/pointer.svg"), pointer;
+}
+.burger__svg {
+  z-index: 90;
+}
+.burger__cross {
+  display: none;
+  position: absolute;
+  inset: 0 0 0 0;
+}
+.burger__check {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  z-index: 100;
+  opacity: 0;
+}
+.burger__check:checked ~ .burger__links {
+  transform: none;
+}
+.burger__check:checked ~ .burger__cross {
+  display: block;
+  z-index: 85;
+}
+
 @media (max-width: 1100px) {
   .header__bottom {
     padding: 18px 0 19px;
@@ -118,6 +177,18 @@ button {
   }
   .header__text--p2 {
     font-size: 16px;
+  }
+  .burger {
+    display: block;
+  }
+}
+@media (max-width: 400px) {
+  .burger__links {
+    position: fixed;
+    inset: 0 0 0 0;
+    width: 100%;
+    height: -moz-min-content;
+    height: min-content;
   }
 }
 .contact-link {
@@ -481,6 +552,9 @@ h1 {
   }
   .company__title {
     font-size: 24px;
+  }
+  .company-block {
+    gap: 0;
   }
 }
 @media (max-width: 510px) {
@@ -880,6 +954,7 @@ h1 {
   .feedbacks__otzyv {
     width: 100%;
     overflow: scroll;
+    padding: 10px;
   }
   .feedbacks__article {
     min-width: 648px;
@@ -1251,7 +1326,17 @@ h1 {
   line-height: 120%;
 }
 
+.politic:hover {
+  cursor: url("./../../../src/images/pointers/pointer.svg"), pointer;
+  color: #4F8FF0;
+}
+
 @media (max-width: 1250px) {
+  .adress,
+  .telephone,
+  .mail {
+    gap: 16px;
+  }
   .footer__links {
     display: none;
   }
@@ -1277,7 +1362,17 @@ h1 {
   }
   .footer__end {
     flex-direction: column;
-    padding: 16px 32px;
+    padding: 16px 16px;
     min-height: 74px;
+  }
+  .adress,
+  .telephone,
+  .mail {
+    gap: 16px;
+  }
+  .adress__p,
+  .telephone__p,
+  .mail__p {
+    font-size: 14px;
   }
 }/*# sourceMappingURL=style.css.map */

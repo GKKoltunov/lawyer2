@@ -173,9 +173,23 @@ font-weight: 400;
 line-height: 120%; 
 }
 
+.politic:hover{
+   cursor: url("./../../../src/images/pointers/pointer.svg"), pointer;
+    color: $accent-color;
+}
+
+
 @media(max-width:1250px){
 
+.adress,
+.telephone,
+.mail {
+
+  gap: 16px;
+  }
+
   .footer{
+
 
     &__links{
     display: none;
@@ -210,9 +224,18 @@ line-height: 120%;
 
    &__end{
     flex-direction: column;
-    padding: 16px 32px;
+    padding: 16px 16px;
     min-height: 74px;
    }
   }
+.adress,
+.telephone,
+.mail {
 
+  gap: 16px;
+
+  &__p{
+    font-size: 14px;
+  }
+  }
 }
