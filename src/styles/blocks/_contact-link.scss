@@ -26,14 +26,14 @@
 
   &__mail:hover{
     color: $accent-color;
-    cursor: url("./../../../src/images/pointers/pointer.svg"), pointer;
+    cursor: url("./../../src/images/pointers/pointer.svg"), pointer;
   }
   
   
   
   &:hover {
     color: $accent-color;
-    cursor: url("./../../../src/images/pointers/pointer.svg"), pointer;
+    cursor: url("./../../src/images/pointers/pointer.svg"), pointer;
   }
 }
 

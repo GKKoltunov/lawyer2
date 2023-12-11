@@ -55,7 +55,7 @@
 
 &__link:hover{
   color: #4F8FF0;
-  cursor: url("./../../../src/images/pointers/pointer.svg"), pointer;
+  cursor: url("./../../src/images/pointers/pointer.svg"), pointer;
 }
 
   &__ask {
@@ -151,7 +151,7 @@
      transition: 0.5s;
   }
   &__p:hover{
-    cursor: url("./../../../src/images/pointers/pointer.svg"), pointer;
+    cursor: url("./../../src/images/pointers/pointer.svg"), pointer;
     color: $accent-color;
   }
 }
