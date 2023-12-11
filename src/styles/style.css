@@ -1327,7 +1327,7 @@ h1 {
 }
 
 .politic:hover {
-  cursor: url("./../../../src/images/pointers/pointer.svg"), pointer;
+  cursor: url("./../../src/images/pointers/pointer.svg"), pointer;
   color: #4F8FF0;
 }
 
